@@ -679,15 +679,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ J̳O̳I̳N̳ ̳T̳O̳ ̳B̳O̳T̳ ̳G̳R̳O̳U̳P̳ ⚚', url='https://t.me/mallu_movie_search')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/movierequestgroupCU'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/movierequestgroupCU')
+            InlineKeyboardButton('💠 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 💠', url='https://t.me/mallmovieup'),
+            InlineKeyboardButton('💠 𝐑𝐄𝐋𝐄𝐀𝐒𝐄 💠', url='https://t.me/+RnQCwI5msYdjZTZl')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ ᕼEᒪᑭ ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝙼𝙰𝚂𝚃𝙴𝚁 ♻️', url='https://t.me/mr_bean_12')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/movierequestgroupCU')
+            InlineKeyboardButton('⚜️ 𝙒𝙀𝘽 𝙎𝙀𝙍𝙄𝙀𝙎 ⚜️', url='https://t.me/malluwebseriesd')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -763,7 +763,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
-            InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', callback_data='deploy')
+            InlineKeyboardButton('credits..?', callback_data='deploy')
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
         ]]
@@ -811,7 +811,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
-            InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', callback_data='deploy')
+            InlineKeyboardButton('credits..?', callback_data='deploy')
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
         ]]
