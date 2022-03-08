@@ -73,16 +73,9 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
     DEPLOY_TXT = """<b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?</b> 
   
 <b>✮ Source Code 1 ›› 
-ദേ ഇപ്പൊ കിട്ടും 😝😝</b>
+SORRY</b>
 
-<b>✮ Source Code 2 ›› 
-ദേ ഇപ്പൊ കിട്ടും 😝😝</b>
-
-<b>✮ Deploy Tutorial ››</b> <i><b>ദേ ഇപ്പൊ കിട്ടും 😝😝</b></i>
-
-<b>Share and Subscribe</b>
-
-Credits ›› <a href=https://t.me/ak_akshayss><b>AKSHAY</b></a>"""
+Credits ›› <a href=https://t.me/mr_bean_12><b>mr</b></a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and ODIN  will respond whenever a keyword is found the message
