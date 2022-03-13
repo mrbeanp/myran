@@ -1404,7 +1404,7 @@ async def advantage_spell_chok(msg):
     await msg.reply("I couldn't find anything related to that\nDid you mean any one of ok bro these?",
                     reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(20)
-    await m.delete()
+    await k.delete()
 
 
 async def manual_filters(client, message, text=False):
