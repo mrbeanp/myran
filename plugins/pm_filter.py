@@ -1401,10 +1401,10 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠", url='https://www.google.com/find?q={reply}')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of ok bro these?",
+  m = await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
                     reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(20)
-    await k.delete()
+    await m.delete()
 
 
 async def manual_filters(client, message, text=False):
