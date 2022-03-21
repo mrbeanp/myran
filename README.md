@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/AJAX.png" alt="Ajax-Extra-FeaturesLogo">
 </p>
-<h1 align="center">
+<h1 align="cent">
   <b>𝙰𝙹𝙰𝚇-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
 </h1>
 
