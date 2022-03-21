@@ -21,6 +21,7 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
+            "value": "Ajax_Files",
             "required": true
         },
         "API_ID": {
