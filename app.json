@@ -21,37 +21,37 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "value": "",
+            "value": "5296671687:AAE4npUwCJyJqsXg7DRqwY-SubwlSuNzPIg",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "",
+            "value": "16138426",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "",
+            "value": "2f6d827314b217206123c543a42bb577",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "value": "",
+            "value": "-1001734906064",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "",
+            "value": "1963316264",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "value": "",
+            "value": "https://telegra.ph/file/006bd3b5fa382e587a2a3.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "value": "",
+            "value": "-1001631813819",
             "required": true       
         },       
         "AUTH_USERS": {
@@ -59,7 +59,8 @@
             "required": false
         },
         "AUTH_CHANNEL": {
-            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "description": "ID of channel.Madmin in this channel. Without subscribing this channel users cannot use bot.",
+            "value":"-1001624165691"‚
             "required": false
         },   
         "USE_CAPTION_FILTER": {
@@ -68,16 +69,32 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
+            "value":"𝗙𝗶𝗹𝗲 𝗻𝗮𝗺𝗲:
+{file_name}
+
+𝗦𝗶𝘇𝗲:{file_size}
+
+•.¸¸.•´´¯••._.• ❤️ 𝚃𝚑𝚊𝚗𝚔𝚢𝚘𝚞 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝙾𝚞𝚛 𝚂𝚎𝚛𝚟𝚒𝚌𝚎 𝙿𝚕𝚎𝚊𝚜𝚎 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝚄𝚜 𝙱𝚢 𝚂𝚑𝚊𝚛𝚒𝚗𝚐 𝙾𝚞𝚛 𝙲𝚑𝚊𝚗𝚗𝚎𝚕/𝙶𝚛𝚘𝚞𝚙 𝙻𝚒𝚗𝚔 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙵𝚛𝚒𝚎𝚗𝚍𝚜 •._.••¯´´•.¸¸.•
+
+❁𝕁𝕠𝕚𝕟 𝕆𝕦𝕣 ℂ𝕙𝕒𝕟𝕟𝕖𝕝𝕤❁ 
+ 
+ ⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱
+
+<b>⚜️𝐌𝐎𝐕𝐈𝐄 : [𝐔𝐏𝐃𝐀𝐓𝐄𝐃](https://t.me/mallmovieup)
+<b>⚜️𝐉𝐎𝐈𝐍 : [𝐆𝐑𝐎𝐔𝐏](https://t.me/mallu_movie_search)
+<b>⚜️𝐉𝐎𝐈𝐍 : [𝙒𝙀𝘽 𝙎𝙀𝙍𝙄𝙀𝙎](https://t.me/malluwebseriesd)
+
+🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят"‚
             "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI.",
-            "value": "",
+            "value": "mongodb+srv://op:o@cluster0.htrbv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
-            "value": "",
+            "value": "Cluster0",
             "required": false
         },
         "COLLECTION_NAME": {
