@@ -69,7 +69,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value":"𝗙𝗶𝗹𝗲 𝗻𝗮𝗺𝗲:"‚
+            "value": "𝗙𝗶𝗹𝗲 𝗻𝗮𝗺𝗲:"‚
             "required": false
         },
         "DATABASE_URI": {
