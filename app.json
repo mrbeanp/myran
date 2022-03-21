@@ -21,31 +21,37 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "value": "Ajax_Files",
+            "value": "",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "",
             "required": true       
         },       
         "AUTH_USERS": {
@@ -66,10 +72,12 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI.",
+            "value": "",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
+            "value": "",
             "required": false
         },
         "COLLECTION_NAME": {
