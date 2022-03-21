@@ -1,9 +1,4 @@
-<p align="cent">
-  <img src="assets/AJAX.png" 
-</p>
-<h1 align="cent">
-  <b>𝙰𝙹𝙰𝚇-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
-</h1>
+
 
 [![Stars](https://img.shields.io/github/stars/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/stargazers)
 [![Forks](https://img.shields.io/github/forks/Aadhi000/Ajax-Extra-Features?style=flat-square&color=blue)](https://github.com/Aadhi000/Ajax-Extra-Features/fork)
