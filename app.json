@@ -60,7 +60,7 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Madmin in this channel. Without subscribing this channel users cannot use bot.",
-            "value":"-1001624165691"‚
+            "value": "-1001624165691"‚
             "required": false
         },   
         "USE_CAPTION_FILTER": {
