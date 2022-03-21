@@ -1,4 +1,4 @@
-<p align="center">
+<p align="cent">
   <img src="assets/AJAX.png" alt="Ajax-Extra-FeaturesLogo">
 </p>
 <h1 align="cent">
