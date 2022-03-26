@@ -1400,7 +1400,7 @@ async def advantage_spell_chok(msg):
             callback_data=f"spolling#{user}#{k}",
         )
     ] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠", url=f"https://www.google.com/search?q={search}")
+    btn.append([InlineKeyboardButton(text="𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠", url=f"https://www.google.com/search?q={search}])
     m = await msg.reply("നിങ്ങൾ സേർച്ച് ആക്കിയ മൂവി താഴെ കാണുന്ന ലിസ്റ്റില് ഉണ്ടെങ്കിൽ നിങ്ങൾക്ക് വേണ്ട സൈസ് നോക്കി ബട്ടൺ പ്രസ് ചെയ്യുക/nI couldn't find anything related to that\nDid you mean any one of these?",
                     reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(30)
