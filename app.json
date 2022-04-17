@@ -19,78 +19,7 @@
     "website": "https://github.com/Aadhi000/Ajax",
     "repository": "https://github.com/yadhukrishanyadhukrishan/myran",
     "env": {
-        "BOT_TOKEN": {
-            "description": "Your bot token.",
-            "value": "5296671687:AAE4npUwCJyJqsXg7DRqwY-SubwlSuNzPIg",
-            "required": true
-        },
-        "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
-            "value": "16138426",
-            "required": true
-        },
-        "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
-            "value": "2f6d827314b217206123c543a42bb577",
-            "required": true
-        },
-        "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "value": "-1001734906064",
-            "required": false
-        },
-        "ADMINS": {
-            "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "1963316264",
-            "required": true
-        },
-        "PICS": {
-            "description": "Add some telegraph link of pictures .",
-            "value": "https://telegra.ph/file/006bd3b5fa382e587a2a3.jpg",
-            "required": false
-        },
-        "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "value": "-1001631813819",
-            "required": true       
-        },       
-        "AUTH_USERS": {
-            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "required": false
-        },
-        "AUTH_CHANNEL": {
-            "description": "ID of channel.Madmin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "-1001624165691"‚
-            "required": false
-        },   
-        "USE_CAPTION_FILTER": {
-            "description": "Whether bot should use captions to improve search results. (True False)",
-            "required": false
-        },
-        "CUSTOM_FILE_CAPTION": {
-            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "𝗙𝗶𝗹𝗲 𝗻𝗮𝗺𝗲:"‚
-            "required": false
-        },
-        "DATABASE_URI": {
-            "description": "mongoDB URI.",
-            "value": "mongodb+srv://op:o@cluster0.htrbv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-            "required": true
-        },
-        "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB.",
-            "value": "Cluster0",
-            "required": false
-        },
-        "COLLECTION_NAME": {
-            "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
-            "value": "Ajax_Files",
-            "required": false
-        },
-        "CACHE_TIME": {
-            "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
-            "value": "300",
-            "required": false
+        
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
