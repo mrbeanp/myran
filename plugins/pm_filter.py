@@ -1400,10 +1400,10 @@ async def advantage_spell_chok(msg):
             callback_data=f"spolling#{user}#{k}",
         )
     ] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="𝚂𝙴𝙰𝚁𝙲𝙷 𝙶𝙾𝙾𝙶𝙻𝙴", url="https://www.google.com/find?q=")])
-    m = await msg.reply("𝙷𝙴𝙻𝙾 {}നിങ്ങൾ സേർച്ച് ആക്കിയ മൂവി താഴെ കാണുന്ന ലിസ്റ്റില് ഉണ്ടെങ്കിൽ നിങ്ങൾക്ക് വേണ്ട സൈസ് നോക്കി ബട്ടൺ പ്രസ് ചെയ്യുക.ഇനി മൂവി ഇല്ലങ്കിൽ താഴെ ഉള്ള സേർച് ഗൂഗിൾ പോയിട്ട് മൂവിയുടെ വർഷം നോക്കി ഇവിടെ ഒന്നൂടെ  മൂവിയുടെ പേരും വർഷവും ടൈപ്പ് ചെയ്യുക I couldn't find anything related to that\nDid you mean any one of these?",
+    btn.append([InlineKeyboardButton(text="𝐂𝐡𝐞𝐜𝐤 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠", url='https://www.google.com/find?q={reply}')])
+  await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
                     reply_markup=InlineKeyboardMarkup(btn))
-    await asyncio.sleep(30)
+    await asyncio.sleep(20)
     await m.delete()
 
 async def manual_filters(client, message, text=False):
